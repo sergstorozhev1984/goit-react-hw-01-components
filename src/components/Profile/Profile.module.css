@@ -1,0 +1,59 @@
+
+.profile {
+    font-size: 30px;
+    color: #5f6775;
+    /* border: 1px solid #d1d3e3; */
+    border: 1px solid #b1b4d0;
+}
+.description{
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 50px;
+    
+}
+.avatar{
+    display: block;
+    max-width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.name {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #202025;
+}
+.tag{
+    margin-bottom: 30px;
+}
+/* .location{
+
+} */
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E1E2ED;
+}
+.item{
+    flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid #d1d3e3;
+    padding: 30px 20px;
+
+}
+.label{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.quantity{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #202025;
+    font-weight: 700;
+    font-size: 28px;
+}
+
