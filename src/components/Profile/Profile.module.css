@@ -1,9 +1,11 @@
-
 .profile {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 30px;
     color: #5f6775;
-    /* border: 1px solid #d1d3e3; */
     border: 1px solid #b1b4d0;
+    margin-bottom: 50px;
 }
 .description{
     text-align: center;
@@ -29,9 +31,7 @@
 .tag{
     margin-bottom: 30px;
 }
-/* .location{
 
-} */
 .stats{
     display: flex;
     justify-content: space-evenly;
