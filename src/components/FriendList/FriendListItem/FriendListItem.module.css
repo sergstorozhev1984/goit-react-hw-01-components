@@ -1,0 +1,23 @@
+.item{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    column-gap: 30px;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.statusOnLine{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+.statusOffLine{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
